@@ -348,10 +348,11 @@ span.tooltip-text {
     .row.row-1 .card {
         width: calc((100% - 6*10px) / 3);
     }
-    .row.row-1 .card:nth-child(4), .row.row-1 .card:nth-child(5), .row.row-1 .card:nth-child(6){
+    .row.row-1 .jquery, .row.row-1 .icon-sass, .row.row-1 .icon-bootstrap{
         display: none;
     }
 .row.row-2 .card {
+    display: block;
     width: calc((100% - 6*10px)/3);
 }
 
@@ -1159,15 +1160,16 @@ textarea {
     }
 
     .row.row-1 .card {
-        float: left;
         width: calc((100% - 12*10px)/6);
     }
-        .row.row-1 .card:nth-child(4), .row.row-1 .card:nth-child(5), .row.row-1 .card:nth-child(6){
-            display: inline-block;
-        }
+
+    .row.row-1 .jquery, .row.row-1 .icon-sass, .row.row-1 .icon-bootstrap{
+        display: block;
+    }
+
     .row-2 {
         display: none;
-        }
+    }
 
 
     #services .card {
@@ -1215,6 +1217,18 @@ textarea {
         width: 90%;
     }
 
+    .row.row-1 .card {
+        width: calc((100% - 12*10px)/6);
+    }
+    
+    .row.row-1 .jquery, .row.row-1 .icon-sass, .row.row-1 .icon-bootstrap{
+        display: block;
+    }
+
+    .row-2 {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1234,7 +1248,18 @@ textarea {
     #about .col-left {
         background-image: url("../../images/AboutMe/profile_left_1000x1700_opt.png");
     }
-  
+    .row.row-1 .card {
+        width: calc((100% - 12*10px)/6);
+    }
+    
+    .row.row-1 .jquery, .row.row-1 .icon-sass, .row.row-1 .icon-bootstrap{
+        display: block;
+    }
+
+    .row-2 {
+        display: none;
+    }
+
     .container, #contact .container {
         width: 70%;
     }
@@ -1296,7 +1321,17 @@ textarea {
     .container {
         width: 70%;
     }
+    .row.row-1 .card {
+        width: calc((100% - 12*10px)/6);
+    }
+    
+    .row.row-1 .jquery, .row.row-1 .icon-sass, .row.row-1 .icon-bootstrap{
+        display: block;
+    }
 
+    .row-2 {
+        display: none;
+    }
 
     #contact .container {
         width: 60%;
