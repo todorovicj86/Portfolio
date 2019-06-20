@@ -51,7 +51,7 @@
             <a href="javascript:void(0)" data-toggle="collapse" data-target="navigation" id="close">&times;</a>
             
             <!-- Menu/navigation items -->
-            <nav>
+            <nav class="centered">
                 <ul>
                     <li><a href="#home" class="scroll_to">Home</a></li>
                     <li><a href="#about" class="scroll_to">About</a></li>
@@ -122,7 +122,7 @@
                             <img class="icons-service icon-sass" src="images/icons/Sass_Logo_Color.svg" alt="sass icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service" src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
+                            <img class="icons-service icon-bootstrap" src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
                         </div>
                     </div>
                     <div class="row row-2">
@@ -133,7 +133,7 @@
                             <img class="icons-service icon-sass" src="images/icons/Sass_Logo_Color.svg" alt="sass icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service" src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
+                            <img class="icons-service icon-bootstrap" src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
                         </div>
                     </div>
                 </div>
