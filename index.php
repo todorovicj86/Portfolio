@@ -7,7 +7,7 @@
         <meta name="author" content="Jelena Todorovic">
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>jelenatodorovic.com</title>
+        <title>todorovicjelena.com</title>
         
         <!-- LOCAL -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
