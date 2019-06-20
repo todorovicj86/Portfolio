@@ -36,7 +36,7 @@
                         My name is Jelena Todorovi&#263;,
                     </h1>
                     <h3>and I am a front-end web developer</h3>
-                    <a href="#projects" class = "btn">View Portfolio</a>
+                    <a href="#projects" class = "btn scroll_to">View Portfolio</a>
             
                 </div>
             </div>        
