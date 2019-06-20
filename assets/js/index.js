@@ -84,6 +84,8 @@ var modalText = {
     portfolio: {
     title: "Portfolio",
     subtitle: "HTML, CSS, JavaScript, jQuery, PHP",
+    gitCode: "https://github.com/todorovicj86/Portfolio",
+    website: "http://todorovicjelena-com.stackstaging.com/",
     description: 
       "The project is a portfolio website. The purpose is to show what I already know, " +
       "but also to learn and try new skills, such as UI/UX design and backend technologies." +
