@@ -64,33 +64,41 @@
         </header>
 
         <main>
-            <section id="about">
+        <section id="about">
                 <div id = "about-me-img" class ="col col-left profile-img img-left"></div>
                 <div class="col col-right text-right pos-rel">
                     <div class ="text">
                         <h2>About me</h2>
                         
-                        <h5>I am a self-thought freelance front-end web developer, currently situated in Serbia, getting ready for a new adventure!</h5>
+                        <h5>I am a self-taught freelance front-end web developer, currently situated in Serbia, and I'm getting ready for a new adventure!</h5>
                         <hr>
+
+                        
                         <p>
-                            <span>Briefly: </span>I was born and raised in Bosnia and Herzegovina. 
+                            What you should know about me is that I love creating and I love learning (I consider myself a forever-student). I also love solving problems and making things work. 
+                            That is why I love web development. When I started learning it, when I tried <span class = "tooltip">this<span class="tooltip-text">HTML</span></span> and <span class = "tooltip"> that<span class="tooltip-text">CSS</span></span>, 
+                            and read more, tried <span class = "tooltip">more<span class="tooltip-text">JavaScript and jQuery</span></span>, I completely fell in love with it!
+                        </p>
+                        <p>
+                             But web development is not my only passion. I am the happiest when I am traveling - I would go to the furthest and the remotest place in the world. 
+                            I get energy from a good HIIT training, I find a feeling of peace doing yoga and meditating, or spending time in nature.
+                        </p>
+                        <br>
+                        <p>
+                            <span>A little bit about my background!? </span><br>
+                            I was born and raised in Bosnia and Herzegovina. 
                             I gained a Masters degree in <a href="http://www.ftn.uns.ac.rs/n159937925/departman-za-gradjevinarstvo-i-geodeziju" target="_blank" rel="noopener"><strong>Civil Engineering.</strong></a> in Serbia. 
                             For six years I worked as a doctoral researcher at the <a href="https://bwk.kuleuven.be/English" target="_blank" rel="noopener"><strong>KU Leuven University</strong></a> in Belgium.    
                         </p>
                         <br>
                         <p><span>And how come I am a front-end web developer?</span></p>
+                
                         <p>
-                            Well, I got too uncomfortable in my comfort zone, so it was time for a change!
-                            I was craving for something new and different from everything that I have already done. 
-                            Since I love creating, I love learning - I consider myself a forever-student - I love solving problems, and making things work, 
-                            a birdie told me - web development. I started researching about it, tried <span class = "tooltip">this<span class="tooltip-text">HTML</span></span> and <span class = "tooltip"> that<span class="tooltip-text">CSS</span></span>, 
-                            read more, tried <span class = "tooltip">more<span class="tooltip-text">JavaScript and jQuery</span></span>, and voila, I fall in love with it!
+                            Well, I got too uncomfortable in my comfort zone, so it was time for a change! I was craving something new and different from everything that I had already done. 
+                            Then a birdie told me – web development, and voila, I found my new passion!
                         </p>
-                        <p>
-                        But web development is not the only thing that interests me. Personally, I am the happiest when I am traveling - I would go to the furthest and the tiniest places in the world. 
-                            I get energy from a good HIIT training, I find a feeling of peace doing yoga and meditating, or spending time in nature.
-                        </p>
-               
+                        <br>
+
                         <p>
                             Now that you have a small glimpse about who I am, if you find me interesting and want to work together, or you are an employer looking to hire,
                              reach out to <a href="mailto:todorovicj86@gmail.com"><strong>todorovicj86@gmail.com</strong></a> to connect!
