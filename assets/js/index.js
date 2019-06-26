@@ -89,9 +89,9 @@ var modalText = {
     description: 
       "The project is a portfolio website. The purpose is to show what I already know, " +
       "but also to learn and try new skills, such as UI/UX design and backend technologies." +
-      " I made a whole website from scratch. I have decided for a clean, simple-to-use UI/UX design."+
-      " The layout is responsive and works over different devices and screen-sizes. The responsiveness is achieved via media query."+
-      " I use HTML, CSS, JavaScript and jQuery for the frontend, and php for the backend." 
+      " I made a whole website from scratch. UX/UI design is simple and easy-to-use."+
+      " The layout is responsive and works over different devices and screen sizes."+
+      " I use HTML, CSS, JavaScript, and jQuery for the frontend and PHP for the backend." 
   },
   realestate: {
     title: "Concept of a Real Estate Website",
@@ -139,7 +139,13 @@ function fillModal(id){
   $(".modal-description").text(modalText[id].description);
   $(".modal-subtitle").text(modalText[id].subtitle);
   $("#github_site").attr("href",modalText[id].gitCode);
-  $('#website').attr("href", modalText[id].website);
+  // $('#website').attr("href", modalText[id].website);
+  if (modalText[id].website) {
+    $('#website').css("display","block");
+    $('#website').attr("href", modalText[id].website);
+  } else {
+    $('#website').css("display","none");
+  }
   //add pictures to slides
   $.each($('#modal .slide'), function(index, value) {
     $(this).css({
