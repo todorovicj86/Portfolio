@@ -591,6 +591,7 @@ span.tooltip-text {
 #website {
     bottom: 0px;
     left: 100px;
+    display: none;
 }
 
 
